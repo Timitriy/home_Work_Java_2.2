@@ -6,7 +6,7 @@ public class Main {
         boolean isBonus = true;
 
         int receivedBonus;
-        if (balance >= 1000){
+        if (balance > 1000){
             receivedBonus = (replenishment + currentAccount) / 100;
         } else {
             receivedBonus = 0;
